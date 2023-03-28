@@ -1,5 +1,10 @@
 # Buzzvel
 
+## Overview
+<p align = "center">
+<img  src= './showcase/video/gif/John-Virtual-Card.gif' >
+</p>
+
 ## Goals
 
 - Create a page that generates QR-code with link to user's profile;
@@ -16,12 +21,23 @@
 ### Backend
 - PHP
 - Laravel
+
+### Frontend
+- NodeJS
+- ReactJS
+- NextJS
+- Typescript
+
 ## Bonus
 - Tests
+
+
 
 ## Requirements
 - PHP
 - Composer
+- NodeJS
+- NPM/Yarn
 
 ## How to use at local environment
 Clone this repo.
@@ -33,8 +49,9 @@ Go to cloned repo folder
 `cd joaoVirtualCard`
 
 Enter in backend folder
-
 `cd backend`
+
+Pass the `.env.example` to `.env`
 
 Install the backend
 
@@ -44,6 +61,19 @@ Run backend server
 
 `php artisan serve`
 
+Open another terminal window to run frontend server and go to cloned repo folder
+
+Enter in frontend folder
+
+`cd frontend`
+
+Install the frontend
+
+`npm install`
+
+Run frontend server in dev mode
+
+`npm run dev`
 
 ### API Routes
 
@@ -77,5 +107,9 @@ To run backend tests run `php artisan test`
 
 ### Reference links
 
-- https://laravel.com/docs/9.x
-- https://php.net
+- [laravel](https://laravel.com/docs/9.x)
+- [php](https://php.net)
+- [npm](https://www.npmjs.com/package/qrcode.react)
+- [next](https://nextjs.org)
+- [qrcodeGenerator](https://github.com/nayuki/QR-Code-generator)
+- [qrcode](https://www.npmjs.com/package/react-qr-code)
